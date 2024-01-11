@@ -47,9 +47,11 @@
 
     <div class="container mt-5">
         <h2>Post List</h2>
-        <ul id="postList" class="list-group">
+        <ul id="postList" class="list-group"></ul>
+          <h2>Users</h2>
+        <ul id="postUsers"></ul>
             <!-- Posts will be dynamically added here -->
-        </ul>
+        
     </div>
 
     <!-- Modal -->
@@ -63,6 +65,9 @@
                 <div class="modal-body">
                     <h5 id="postTitle"></h5>
                     <p id="postBody"></p>
+                    <p id="postUsername"></p>
+                    <p id="postEmail"></p>
+                  
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
